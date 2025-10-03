@@ -1,0 +1,286 @@
+body {
+    background: #f6f6fa;
+    padding: 40px 40px 40px 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+ul, ol {
+    margin-top: 0;
+}
+
+.wrapper {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0% auto;
+}
+
+/* Main content */
+
+.main-content {
+    padding: 80px 40px 80px 88px;
+    box-sizing: border-box;
+}
+
+/* Sidebar */
+
+.sidebar {
+    background: #e0ebfe;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    width: 370px;
+}
+
+.sidebar-content {
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+/* Contacts */
+
+.contacts-style {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.contacts-type {
+    font-weight: 700;
+    font-size: 14px;
+    color: #161d2a;
+    line-height: 24px;
+    margin-right: 8px;
+}
+
+.contacts-link {
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2979ff;
+    text-decoration: underline;
+}
+
+.contacts-item {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.contacts-container {
+    margin-bottom: 40px;
+}
+
+/* Skills-contaier */
+
+.skills-container {
+    margin-bottom: 40px;
+}
+
+.scills-title {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.skills-list {
+    padding-left: 36px;
+}
+
+.skills-list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161d2a;
+}
+
+/* Main content */
+
+.my-profession {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-name {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.my-descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-info {
+    margin-bottom: 40px;
+}
+
+/* My projects */
+
+.my-projects-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-projects-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+
+.my-projects-list {
+    padding-left: 16px;
+}
+
+.my-projects-item-link {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #005fff;
+}
+
+.my-projects-item-tech {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-projects-container {
+    margin-bottom: 40px;
+}
+
+/* Work experience */
+
+.work-experience-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.work-experience-company {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.company-name {
+    color: #6d9bf5;
+}
+
+.work-experience-period {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+    margin-bottom: 8px;
+}
+
+.work-experience-period-separator {
+    color: #000;
+}
+
+.work-experience-duties-list {
+    padding-left: 16px;
+}
+
+.work-experience-duties-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.work-experience-section {
+    margin-bottom: 40px;
+}
+
+.work-experience-container {
+    margin-bottom: 12px;
+}
+
+/* Education */
+
+.education-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.education-institution {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6d9bf5;
+    margin-bottom: 8px;
+}
+
+.education-institution-specialty {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.education-institution-period {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+}
+
+.education-institution-period-separator {
+    color: #000;
+}
+
+.musik {
+    text-align: center; /* центрує inline-елементи, в т.ч. аудіо */
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a8a8a8;
+}
+
+.musik-bar {
+    display: block; /* щоб можна було вирівняти як блок */
+    margin: 20px auto; /* авто-центрування по горизонталі */
+    width: 300px; /* ширина плеєра */
+    outline: none;
+    color: #E0EBFE;
+}
+
+
